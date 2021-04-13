@@ -3,3 +3,89 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  box-sizing: border-box;
+  min-height: 5rem;
+  max-height: 10rem;
+  width: 100%;
+  border-bottom: 2px solid black;
+  background-color: #ffdbaa;
+  overflow: hidden;
+}
+
+header h1 {
+  box-sizing: border-box;
+  width: 50%;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #553100;
+  text-align: left;
+  letter-spacing: 2px;
+  padding: 1rem 0 0 2rem;
+}
+
+#menu {
+  box-sizing: border-box;
+  width: 49%;
+  text-align: right;
+  display: inline-block;
+}
+
+#menu ul {
+}
+
+#menu li {
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  background-color: #805215;
+  padding: 1rem;
+  margin: 2rem 2rem 2rem 0;
+  border-radius: 10px;
+}
+
+#main {
+    background-color: #D4A76A;
+    box-sizing: border-box;
+    height: 100vh;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20rem;
+    height: 15rem;
+    background-color: white;
+    margin: 3rem 3rem 10rem 3rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.card .card-header {
+    font-weight: bold;
+}
+
+.card p {
+    display: inline-block;
+    width: 90%;
+}
+
+.card .card-submit {
+    color: white;
+    display: inline-block;
+    width: 90%;
+    background-color: #805215;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.card-lg {
+    display: inline-block;
+    width: 90%;
+}
